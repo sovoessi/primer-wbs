@@ -4,53 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Travel Agency</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <!-- We'll add content here next -->
          <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#blog">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
             </ul>
+
+            <button type="button"><a href="#contact">Contact us</a></button>
          </nav>
     </header>
     <main>
         <!-- Main content goes here -->
-         <section>
-            <h1>Blog</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, maiores? 
-                Eius aspernatur aliquid porro nemo sequi, quaerat blanditiis saepe aut cupiditate 
-                temporibus neque recusandae fugiat, sunt, suscipit architecto natus praesentium amet? 
-                Beatae, voluptatum delectus ipsam at odit minima obcaecati voluptatibus exercitationem 
-                id minus quam aspernatur quo maxime hic nulla vel.
-            </p>
-            <img src="" alt="">
+         <section class="blog">
+            <h1 id="blog">Blog</h1>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, maiores? 
+                    Eius aspernatur aliquid porro nemo sequi, quaerat blanditiis saepe aut cupiditate 
+                    temporibus neque recusandae fugiat, sunt, suscipit architecto natus praesentium amet? 
+                    Beatae, voluptatum delectus ipsam at odit minima obcaecati voluptatibus exercitationem 
+                    id minus quam aspernatur quo maxime hic nulla vel.
+                </p>
+                <img src="https://picsum.photos/seed/{picsum}/200/300"  alt="">
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Consectetur ratione beatae, earum aliquid labore consequuntur exercitationem quia 
+                    culpa est fugit aperiam voluptatem accusantium! Repellat at voluptatum esse aspernatur 
+                    facere fugit unde illum, tenetur dolore eius amet totam. Repellendus corporis laboriosam 
+                    dolor necessitatibus modi alias et repudiandae quod quaerat aspernatur ex aperiam 
+                    blanditiis maxime dolorum, rerum nisi debitis ipsa possimus esse enim provident eaque pariatur. 
+                    Inventore, earum ipsum a tempore dolor saepe beatae vel libero ratione.
+                </p>
+                <img src="https://picsum.photos/seed/{seed}/200/300" alt="">
+            </article>
+        </section>
+         <section class="gallery">
+            <h1 id="gallery">Gallery</h1>
+            <div>
+                <img src="https://picsum.photos/seed/{on}/200/300" alt="">
+                <img src="https://picsum.photos/seed/{pad}/200/300" alt="">
+                <img src="https://picsum.photos/seed/{tor}/200/300" alt="">
+                <img src="https://picsum.photos/seed/{rec}/200/300" alt="">
+                <img src="https://picsum.photos/seed/{sat}/200/300" alt="">
+                <img src="https://picsum.photos/seed/{fri}/200/300" alt="">
+            </div>        
+         </section>
+         <section class="about-us">
+            <h1  id="about">About Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur ratione beatae, earum aliquid labore consequuntur exercitationem quia 
-                culpa est fugit aperiam voluptatem accusantium! Repellat at voluptatum esse aspernatur 
-                facere fugit unde illum, tenetur dolore eius amet totam. Repellendus corporis laboriosam 
-                dolor necessitatibus modi alias et repudiandae quod quaerat aspernatur ex aperiam 
-                blanditiis maxime dolorum, rerum nisi debitis ipsa possimus esse enim provident eaque pariatur. 
-                Inventore, earum ipsum a tempore dolor saepe beatae vel libero ratione.
-            </p>
-            <img src="" alt="">
+                Tempore aspernatur beatae corporis ratione molestiae, 
+                vel amet tempora facere fuga rem totam et omnis vero. 
+                Optio laboriosam nesciunt totam amet! 
+                Cumque rem enim earum accusantium numquam culpa error magni explicabo nihil. 
+                Necessitatibus voluptatum asperiores vero cumque, vitae sunt, 
+                est consequuntur quas accusantium officia non tenetur aliquid ratione, 
+                perspiciatis quam temporibus id reiciendis assumenda sed ullam 
+                laboriosam iure? Inventore eligendi ipsam libero magni molestiae 
+                voluptas repellendus, doloribus eaque delectus magnam enim quam quod culpa? 
+                Animi, doloremque fugiat!</p>
          </section>
-         <section>
-            <h1>Gallery</h1>
+         <section class="services">
+            <h1  id="services">Services</h1>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
          </section>
-         <section>
-            <h1>About Us</h1>
-         </section>
-         <section>
-            <h1>Services</h1>
-         </section>
-         <section>
-            <h1>Contact Us</h1>
+         <section class="contact-us">
+            <h1  id="contact">Contact Us</h1>
          </section>
 
     </main>
