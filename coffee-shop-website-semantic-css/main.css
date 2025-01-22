@@ -4,3 +4,45 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem 4rem;
+
+}
+
+nav {
+    background-color: bisque;
+}
+
+nav ul {
+    text-align: center; 
+    padding: 8px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 8px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   font-weight: 400;
+   text-transform: uppercase;
+   transition: opacity .25s;
+}
+
+nav ul li a:hover {
+    opacity: .5;
+}
+
+h1 {
+    padding:  2rem 4rem;
+}
+
+section div img {
+    max-height: 468px;
+    margin-top: 40px;
+}
+
