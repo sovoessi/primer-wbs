@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: #f5f5f5;
+    margin-bottom: 800px;
+}
+
+section {
+    margin: 100px;
+}
+
+.garden {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px; 
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+    background-color: yellow;
+
+}
+
+.box {
+    background: burlywood;
+    border: 1px solid skyblue;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#container-1 :nth-of-type(3) {
+    grid-column-start: 3;
+    background-color: blue;
+}
+
+
+#container-1 :nth-of-type(5) {
+    grid-column-start: 5;
+    background-color: blue;
+}
+
+#container-2 :nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: green;
+}
+
+#container-3 :nth-of-type(2) {
+    grid-column-start: 5;
+    grid-column-end: 2;
+    background-color: aqua;
+}
+
+#container-4 :nth-of-type(4) {
+    grid-column-start: -3;
+    background-color: aqua;
+}
+
+#container-5 :nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    background-color: aqua;
+}

@@ -81,6 +81,15 @@ article {
     margin: 20px;
 }
 
+article:nth-last-of-type(2)  p {
+    order: 2;
+    margin-left: 40px;
+}
+
+article img {
+    margin: 10px;
+}
+
 .gallery div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
